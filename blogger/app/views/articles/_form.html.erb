@@ -5,12 +5,16 @@
   <% end %>
   </ul>
   <p>
-    <%= f.label :title %><br />
+    <%= f.label :title, "Article Title" %><br />
     <%= f.text_field :title %>
   </p>
   <p>
-    <%= f.label :body %><br />
+    <%= f.label :body, "What do You Want to Tell us About" %><br />
     <%= f.text_area :body %>
+  </p>
+  <p>
+    <%= f.label :tag_list %><br />
+    <%= f.text_field :tag_list %>
   </p>
   <p>
     <%= f.submit %>
